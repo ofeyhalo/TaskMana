@@ -1,0 +1,39 @@
+C:\Users\USER\documents\visual studio 2013\Projects\TaskMana\TaskMana\bin\Debug\TaskMana.exe.config
+C:\Users\USER\documents\visual studio 2013\Projects\TaskMana\TaskMana\obj\Debug\TaskMana.exe
+C:\Users\USER\documents\visual studio 2013\Projects\TaskMana\TaskMana\obj\Debug\TaskMana.pdb
+C:\Users\USER\documents\visual studio 2013\Projects\TaskMana\TaskMana\obj\Debug\TaskMana.AddAnthrListControl.resources
+C:\Users\USER\documents\visual studio 2013\Projects\TaskMana\TaskMana\obj\Debug\TaskMana.CreateNewTaskControl.resources
+C:\Users\USER\documents\visual studio 2013\Projects\TaskMana\TaskMana\obj\Debug\TaskMana.Dashboard.resources
+C:\Users\USER\documents\visual studio 2013\Projects\TaskMana\TaskMana\obj\Debug\TaskMana.ListControl.resources
+C:\Users\USER\documents\visual studio 2013\Projects\TaskMana\TaskMana\obj\Debug\TaskMana.Main.resources
+C:\Users\USER\documents\visual studio 2013\Projects\TaskMana\TaskMana\obj\Debug\TaskMana.MyBoardControl.resources
+C:\Users\USER\documents\visual studio 2013\Projects\TaskMana\TaskMana\obj\Debug\TaskMana.Properties.Resources.resources
+C:\Users\USER\documents\visual studio 2013\Projects\TaskMana\TaskMana\obj\Debug\TaskMana.TaskCard.resources
+C:\Users\USER\documents\visual studio 2013\Projects\TaskMana\TaskMana\obj\Debug\TaskMana.csproj.GenerateResource.Cache
+C:\Users\USER\documents\visual studio 2013\Projects\TaskMana\TaskMana\bin\Debug\TaskMana.exe
+C:\Users\USER\documents\visual studio 2013\Projects\TaskMana\TaskMana\bin\Debug\TaskMana.pdb
+C:\Users\USER\documents\visual studio 2013\Projects\TaskMana\TaskMana\obj\Debug\TaskMana.BoardControl.resources
+C:\Users\USER\documents\visual studio 2013\Projects\TaskMana\TaskMana\obj\Debug\TaskMana.CreateAccountForm.resources
+C:\Users\USER\documents\visual studio 2013\Projects\TaskMana\TaskMana\obj\Debug\TaskMana.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\TaskMana\TaskMana\bin\Debug\TaskMana.exe.config
+C:\Users\USER\Desktop\TaskMana\TaskMana\obj\Debug\TaskMana.exe
+C:\Users\USER\Desktop\TaskMana\TaskMana\obj\Debug\TaskMana.pdb
+C:\Users\USER\Desktop\TaskMana\TaskMana\bin\Debug\TaskMana.exe
+C:\Users\USER\Desktop\TaskMana\TaskMana\bin\Debug\TaskMana.pdb
+C:\Users\USER\Desktop\TaskMana\TaskMana\obj\Debug\TaskMana.AddAnthrListControl.resources
+C:\Users\USER\Desktop\TaskMana\TaskMana\obj\Debug\TaskMana.BoardControl.resources
+C:\Users\USER\Desktop\TaskMana\TaskMana\obj\Debug\TaskMana.CreateAccountForm.resources
+C:\Users\USER\Desktop\TaskMana\TaskMana\obj\Debug\TaskMana.Dashboard.resources
+C:\Users\USER\Desktop\TaskMana\TaskMana\obj\Debug\TaskMana.ListControl.resources
+C:\Users\USER\Desktop\TaskMana\TaskMana\obj\Debug\TaskMana.Main.resources
+C:\Users\USER\Desktop\TaskMana\TaskMana\obj\Debug\TaskMana.MyBoardControl.resources
+C:\Users\USER\Desktop\TaskMana\TaskMana\obj\Debug\TaskMana.Properties.Resources.resources
+C:\Users\USER\Desktop\TaskMana\TaskMana\obj\Debug\TaskMana.csproj.GenerateResource.Cache
+C:\Users\USER\Desktop\TaskMana\TaskMana\obj\Debug\TaskMana.AddTaskCard.resources
+C:\Users\USER\Desktop\TaskMana\TaskMana\obj\Debug\TaskMana.EditNewTaskControl.resources
+C:\Users\USER\Desktop\TaskMana\TaskMana\obj\Debug\TaskMana.TaskCard.resources
+C:\Users\USER\Desktop\TaskMana\TaskMana\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\USER\Desktop\TaskMana\TaskMana\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\USER\Desktop\TaskMana\TaskMana\obj\Debug\TaskMana.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\TaskMana\TaskMana\obj\Debug\TaskMana.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\TaskMana\TaskMana\obj\Debug\TaskMana.csproj.Up2Date
