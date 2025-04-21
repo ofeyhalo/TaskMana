@@ -26,7 +26,7 @@ namespace TaskMana
 
         public void SetBoardName(string boardName)
         {
-            myBoardControl1.BoardTitle = boardName; // Assuming the user control is named boardActivityControl1
+            //MyBoardControl.BoardTitle = boardName; // Assuming the user control is named boardActivityControl1
         }
 
     }

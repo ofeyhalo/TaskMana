@@ -65,9 +65,8 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.notifTopbarBtn = new System.Windows.Forms.PictureBox();
             this.mainPanel = new System.Windows.Forms.Panel();
-            this.flpBoard = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.myBoardControl1 = new TaskMana.MyBoardControl();
+            this.editNewTaskControl1 = new TaskMana.EditNewTaskControl();
             this.titlePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.menuBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.minimizeBtn)).BeginInit();
@@ -88,7 +87,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.notifTopbarBtn)).BeginInit();
             this.mainPanel.SuspendLayout();
-            this.flpBoard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
@@ -581,24 +579,13 @@
             // mainPanel
             // 
             this.mainPanel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.mainPanel.Controls.Add(this.flpBoard);
+            this.mainPanel.Controls.Add(this.editNewTaskControl1);
             this.mainPanel.Dock = System.Windows.Forms.DockStyle.Right;
             this.mainPanel.Location = new System.Drawing.Point(171, 94);
             this.mainPanel.Margin = new System.Windows.Forms.Padding(0);
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(929, 509);
             this.mainPanel.TabIndex = 5;
-            // 
-            // flpBoard
-            // 
-            this.flpBoard.Controls.Add(this.myBoardControl1);
-            this.flpBoard.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flpBoard.Location = new System.Drawing.Point(0, 0);
-            this.flpBoard.Margin = new System.Windows.Forms.Padding(0);
-            this.flpBoard.Name = "flpBoard";
-            this.flpBoard.Size = new System.Drawing.Size(929, 509);
-            this.flpBoard.TabIndex = 0;
-            this.flpBoard.WrapContents = false;
             // 
             // pictureBox7
             // 
@@ -609,13 +596,14 @@
             this.pictureBox7.TabIndex = 3;
             this.pictureBox7.TabStop = false;
             // 
-            // myBoardControl1
+            // editNewTaskControl1
             // 
-            this.myBoardControl1.Location = new System.Drawing.Point(0, 0);
-            this.myBoardControl1.Margin = new System.Windows.Forms.Padding(0);
-            this.myBoardControl1.Name = "myBoardControl1";
-            this.myBoardControl1.Size = new System.Drawing.Size(929, 516);
-            this.myBoardControl1.TabIndex = 0;
+            this.editNewTaskControl1.BackColor = System.Drawing.Color.Transparent;
+            this.editNewTaskControl1.Location = new System.Drawing.Point(0, 1);
+            this.editNewTaskControl1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.editNewTaskControl1.Name = "editNewTaskControl1";
+            this.editNewTaskControl1.Size = new System.Drawing.Size(929, 509);
+            this.editNewTaskControl1.TabIndex = 0;
             // 
             // Dashboard
             // 
@@ -656,7 +644,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.notifTopbarBtn)).EndInit();
             this.mainPanel.ResumeLayout(false);
-            this.flpBoard.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -703,8 +690,7 @@
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button addWorkspViewsMnuBtn;
         private System.Windows.Forms.Panel mainPanel;
-        private System.Windows.Forms.FlowLayoutPanel flpBoard;
-        private MyBoardControl myBoardControl1;
+        private EditNewTaskControl editNewTaskControl1;
         //private MainBoardControl mainBoardControl1;
     }
 }

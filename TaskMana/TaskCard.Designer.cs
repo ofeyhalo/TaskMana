@@ -60,6 +60,7 @@
             this.Controls.Add(this.lblTaskTitle);
             this.Name = "TaskCard";
             this.Size = new System.Drawing.Size(249, 45);
+            this.Load += new System.EventHandler(this.TaskCard_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

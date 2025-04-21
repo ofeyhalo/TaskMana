@@ -35,12 +35,12 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnCancelTask = new System.Windows.Forms.Button();
+            this.btnSaveTask = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.taskdescribeLabel = new System.Windows.Forms.Label();
-            this.cancelNewTaskButton = new System.Windows.Forms.Button();
+            this.btnCloseTaskEdit = new System.Windows.Forms.Button();
             this.createNewTaskPanel.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -52,8 +52,8 @@
             this.createNewTaskPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.createNewTaskPanel.Controls.Add(this.panel2);
             this.createNewTaskPanel.Controls.Add(this.panel1);
-            this.createNewTaskPanel.Controls.Add(this.cancelNewTaskButton);
-            this.createNewTaskPanel.Location = new System.Drawing.Point(346, 60);
+            this.createNewTaskPanel.Controls.Add(this.btnCloseTaskEdit);
+            this.createNewTaskPanel.Location = new System.Drawing.Point(209, 24);
             this.createNewTaskPanel.Name = "createNewTaskPanel";
             this.createNewTaskPanel.Size = new System.Drawing.Size(490, 459);
             this.createNewTaskPanel.TabIndex = 0;
@@ -97,7 +97,6 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(74, 28);
             this.button1.TabIndex = 6;
-            this.button1.Text = "TO DO";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = true;
             // 
@@ -113,8 +112,8 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.btnCancelTask);
+            this.panel1.Controls.Add(this.btnSaveTask);
             this.panel1.Controls.Add(this.richTextBox1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.taskdescribeLabel);
@@ -123,31 +122,31 @@
             this.panel1.Size = new System.Drawing.Size(457, 153);
             this.panel1.TabIndex = 7;
             // 
-            // button3
+            // btnCancelTask
             // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(110, 116);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(60, 27);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Cancel";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnCancelTask.FlatAppearance.BorderSize = 0;
+            this.btnCancelTask.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelTask.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelTask.Location = new System.Drawing.Point(110, 116);
+            this.btnCancelTask.Name = "btnCancelTask";
+            this.btnCancelTask.Size = new System.Drawing.Size(60, 27);
+            this.btnCancelTask.TabIndex = 3;
+            this.btnCancelTask.Text = "Cancel";
+            this.btnCancelTask.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnSaveTask
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(73)))), ((int)(((byte)(79)))));
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(73)))), ((int)(((byte)(79)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(44, 116);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(60, 27);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Save";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnSaveTask.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(73)))), ((int)(((byte)(79)))));
+            this.btnSaveTask.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(73)))), ((int)(((byte)(79)))));
+            this.btnSaveTask.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSaveTask.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveTask.ForeColor = System.Drawing.Color.White;
+            this.btnSaveTask.Location = new System.Drawing.Point(44, 116);
+            this.btnSaveTask.Name = "btnSaveTask";
+            this.btnSaveTask.Size = new System.Drawing.Size(60, 27);
+            this.btnSaveTask.TabIndex = 3;
+            this.btnSaveTask.Text = "Save";
+            this.btnSaveTask.UseVisualStyleBackColor = false;
             // 
             // richTextBox1
             // 
@@ -177,18 +176,17 @@
             this.taskdescribeLabel.TabIndex = 1;
             this.taskdescribeLabel.Text = "Description";
             // 
-            // cancelNewTaskButton
+            // btnCloseTaskEdit
             // 
-            this.cancelNewTaskButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.cancelNewTaskButton.FlatAppearance.BorderSize = 0;
-            this.cancelNewTaskButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cancelNewTaskButton.Image = global::TaskMana.Properties.Resources.multiply_24px_blavk;
-            this.cancelNewTaskButton.Location = new System.Drawing.Point(437, 11);
-            this.cancelNewTaskButton.Name = "cancelNewTaskButton";
-            this.cancelNewTaskButton.Size = new System.Drawing.Size(40, 34);
-            this.cancelNewTaskButton.TabIndex = 5;
-            this.cancelNewTaskButton.UseVisualStyleBackColor = true;
-            this.cancelNewTaskButton.Click += new System.EventHandler(this.cancelNewTaskButton_Click);
+            this.btnCloseTaskEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCloseTaskEdit.FlatAppearance.BorderSize = 0;
+            this.btnCloseTaskEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCloseTaskEdit.Image = global::TaskMana.Properties.Resources.multiply_24px_blavk;
+            this.btnCloseTaskEdit.Location = new System.Drawing.Point(437, 11);
+            this.btnCloseTaskEdit.Name = "btnCloseTaskEdit";
+            this.btnCloseTaskEdit.Size = new System.Drawing.Size(40, 34);
+            this.btnCloseTaskEdit.TabIndex = 5;
+            this.btnCloseTaskEdit.UseVisualStyleBackColor = true;
             // 
             // EditNewTaskControl
             // 
@@ -197,7 +195,7 @@
             this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.createNewTaskPanel);
             this.Name = "EditNewTaskControl";
-            this.Size = new System.Drawing.Size(1100, 566);
+            this.Size = new System.Drawing.Size(929, 509);
             this.createNewTaskPanel.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -214,14 +212,14 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label taskTitle;
         private System.Windows.Forms.CheckBox taskProgressCheclbox;
-        private System.Windows.Forms.Button cancelNewTaskButton;
+        private System.Windows.Forms.Button btnCloseTaskEdit;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label taskdescribeLabel;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnCancelTask;
+        private System.Windows.Forms.Button btnSaveTask;
     }
 }

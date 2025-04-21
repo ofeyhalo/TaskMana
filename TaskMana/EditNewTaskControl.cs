@@ -16,10 +16,5 @@ namespace TaskMana
         {
             InitializeComponent();
         }
-
-        private void cancelNewTaskButton_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
