@@ -44,7 +44,6 @@
             this.flpBoard = new System.Windows.Forms.FlowLayoutPanel();
             this.pnlAddList = new System.Windows.Forms.Panel();
             this.btnAddList = new System.Windows.Forms.Button();
-            this.editNewTaskControl1 = new TaskMana.EditNewTaskControl();
             this.pnlHeader.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -220,7 +219,6 @@
             this.flpBoard.AutoSize = true;
             this.flpBoard.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.flpBoard.Controls.Add(this.pnlAddList);
-            this.flpBoard.Controls.Add(this.editNewTaskControl1);
             this.flpBoard.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flpBoard.Location = new System.Drawing.Point(0, 0);
             this.flpBoard.Name = "flpBoard";
@@ -250,14 +248,6 @@
             this.btnAddList.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAddList.UseVisualStyleBackColor = true;
             this.btnAddList.Click += new System.EventHandler(this.btnAddList_Click);
-            // 
-            // editNewTaskControl1
-            // 
-            this.editNewTaskControl1.BackColor = System.Drawing.Color.Transparent;
-            this.editNewTaskControl1.Location = new System.Drawing.Point(13, 119);
-            this.editNewTaskControl1.Name = "editNewTaskControl1";
-            this.editNewTaskControl1.Size = new System.Drawing.Size(929, 509);
-            this.editNewTaskControl1.TabIndex = 2;
             // 
             // MyBoardControl
             // 
@@ -297,6 +287,5 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel pnlAddList;
-        private EditNewTaskControl editNewTaskControl1;
     }
 }

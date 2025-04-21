@@ -12,11 +12,57 @@ namespace TaskMana
 {
     public partial class Dashboard : Form
     {
-
+        // User controls
+        private MyBoardControl myBoardControl;
+        private EditNewTaskControl editNewTaskControl;
 
         public Dashboard()
         {
             InitializeComponent();
+            InitializeCustomControls(); // Load controls manually
+        }
+
+        private void InitializeCustomControls()
+        {
+            // Create instances of the user controls
+            myBoardControl = new MyBoardControl();
+            editNewTaskControl = new EditNewTaskControl();
+
+            // Dock both controls to fill the form
+            myBoardControl.Dock = DockStyle.Fill;
+            editNewTaskControl.Dock = DockStyle.Fill;
+
+            // Initially only show the board
+            myBoardControl.Visible = true;
+            editNewTaskControl.Visible = false;
+
+            // Add to the form
+            this.Controls.Add(myBoardControl);
+            this.Controls.Add(editNewTaskControl);
+
+            // Subscribe to TaskClicked event
+            HookTaskClickEvent();
+        }
+
+        private void HookTaskClickEvent()
+        {
+            // Find all TaskCards inside the board control (simplified)
+            foreach (var listControl in myBoardControl.Controls.OfType<ListControl>())
+            {
+                foreach (var taskCard in listControl.Controls.OfType<TaskCard>())
+                {
+                    taskCard.TaskClicked += TaskCard_TaskClicked;
+                }
+            }
+
+            // If your app dynamically adds task cards, you should hook this in the task creation logic instead
+        }
+
+        private void TaskCard_TaskClicked(object sender, EventArgs e)
+        {
+            // Show the edit control
+            editNewTaskControl.Visible = true;
+            editNewTaskControl.BringToFront();
         }
 
         private void closeButton_Click(object sender, EventArgs e)
@@ -26,8 +72,16 @@ namespace TaskMana
 
         public void SetBoardName(string boardName)
         {
-            //MyBoardControl.BoardTitle = boardName; // Assuming the user control is named boardActivityControl1
+            // Optionally set the title on MyBoardControl if needed
+            // myBoardControl.BoardTitle = boardName;
         }
 
+        // Optionally expose a method to return to the board from Edit
+        public void ShowBoardControl()
+        {
+            editNewTaskControl.Visible = false;
+            myBoardControl.Visible = true;
+            myBoardControl.BringToFront();
+        }
     }
 }
