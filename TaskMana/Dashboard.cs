@@ -37,8 +37,8 @@ namespace TaskMana
             editNewTaskControl.Visible = false;
 
             // Add to the form
-            this.Controls.Add(myBoardControl);
-            this.Controls.Add(editNewTaskControl);
+            mainPanel.Controls.Add(myBoardControl);
+            mainPanel.Controls.Add(editNewTaskControl);
 
             // Subscribe to TaskClicked event
             HookTaskClickEvent();
@@ -65,7 +65,7 @@ namespace TaskMana
             editNewTaskControl.BringToFront();
         }
 
-        private void closeButton_Click(object sender, EventArgs e)
+        private void CloseButton_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
@@ -73,7 +73,7 @@ namespace TaskMana
         public void SetBoardName(string boardName)
         {
             // Optionally set the title on MyBoardControl if needed
-            // myBoardControl.BoardTitle = boardName;
+            myBoardControl.BoardTitle = boardName;
         }
 
         // Optionally expose a method to return to the board from Edit

@@ -5,35 +5,34 @@ namespace TaskMana
 {
     public partial class AddTaskCard : UserControl
     {
-        public string TaskTitle
-        {
-            get { return txtTaskTitle.Text; } // Assuming you use a TextBox
-            set { txtTaskTitle.Text = value; }
-        }
-
         public event Action<string> TaskAdded;
         public event EventHandler CancelClicked;
 
         public AddTaskCard()
         {
             InitializeComponent();
-            btnAddTask.Click += btnAddTask_Click;
-            btnCancel.Click += btnCancel_Click;
+
+            btnAddTask.Click += BtnAddTask_Click;
+            btnCancel.Click += BtnCancel_Click;
         }
 
-        private void btnAddTask_Click(object sender, EventArgs e)
+        private void BtnAddTask_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrWhiteSpace(TaskTitle))
+            string taskTitle = txtTaskTitle.Text.Trim();
+
+            if (!string.IsNullOrEmpty(taskTitle))
             {
-                if (TaskAdded != null)
-                    TaskAdded(TaskTitle);
+                TaskAdded?.Invoke(taskTitle); // ✅ Only send the typed title
+            }
+            else
+            {
+                MessageBox.Show("Please enter a task title.", "Empty Task", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
-        private void btnCancel_Click(object sender, EventArgs e)
+        private void BtnCancel_Click(object sender, EventArgs e)
         {
-            if (CancelClicked != null)
-                CancelClicked(this, EventArgs.Empty);
+            CancelClicked?.Invoke(this, EventArgs.Empty);
         }
     }
 }

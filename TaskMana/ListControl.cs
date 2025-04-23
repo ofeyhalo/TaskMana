@@ -38,9 +38,9 @@ namespace TaskMana
             AddTaskCard existingInput = null;
             foreach (Control ctrl in flpTasks.Controls)
             {
-                if (ctrl is AddTaskCard)
+                if (ctrl is AddTaskCard card)
                 {
-                    existingInput = (AddTaskCard)ctrl;
+                    existingInput = card;
                     break;
                 }
             }

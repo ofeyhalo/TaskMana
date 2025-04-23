@@ -165,7 +165,7 @@
             this.closeButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.closeButton.TabIndex = 4;
             this.closeButton.TabStop = false;
-            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
+            this.closeButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
             // createTopbarBtn
             // 

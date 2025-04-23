@@ -81,6 +81,7 @@
     <Compile Include="CreateAccountForm.Designer.cs">
       <DependentUpon>CreateAccountForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Data\DatabaseHelper.cs" />
     <Compile Include="EditNewTaskControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -105,6 +106,7 @@
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\Board.cs" />
     <Compile Include="MyBoardControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -126,6 +128,7 @@
     <Compile Include="TaskCard.Designer.cs">
       <DependentUpon>TaskCard.cs</DependentUpon>
     </Compile>
+    <Compile Include="TaskItem.cs" />
     <EmbeddedResource Include="AddAnthrListControl.resx">
       <DependentUpon>AddAnthrListControl.cs</DependentUpon>
     </EmbeddedResource>
