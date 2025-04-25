@@ -60,97 +60,97 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddAnthrListControl.cs">
+    <Compile Include="Controls\AddAnthrListControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="AddAnthrListControl.Designer.cs">
+    <Compile Include="Controls\AddAnthrListControl.Designer.cs">
       <DependentUpon>AddAnthrListControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="BoardControl.cs">
+    <Compile Include="Controls\BoardControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="BoardControl.Designer.cs">
+    <Compile Include="Controls\BoardControl.Designer.cs">
       <DependentUpon>BoardControl.cs</DependentUpon>
     </Compile>
     <Compile Include="CircularPanel.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="CreateAccountForm.cs">
+    <Compile Include="Forms\CreateAccountForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CreateAccountForm.Designer.cs">
+    <Compile Include="Forms\CreateAccountForm.Designer.cs">
       <DependentUpon>CreateAccountForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Data\DatabaseHelper.cs" />
-    <Compile Include="EditNewTaskControl.cs">
+    <Compile Include="Helpers\DatabaseHelper.cs" />
+    <Compile Include="Controls\EditNewTaskControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="EditNewTaskControl.Designer.cs">
+    <Compile Include="Controls\EditNewTaskControl.Designer.cs">
       <DependentUpon>EditNewTaskControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboard.cs">
+    <Compile Include="Forms\Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dashboard.Designer.cs">
+    <Compile Include="Forms\Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="ListControl.cs">
+    <Compile Include="Controls\ListControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ListControl.Designer.cs">
+    <Compile Include="Controls\ListControl.Designer.cs">
       <DependentUpon>ListControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main.cs">
+    <Compile Include="Forms\Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main.Designer.cs">
+    <Compile Include="Forms\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Board.cs" />
-    <Compile Include="MyBoardControl.cs">
+    <Compile Include="Controls\MyBoardControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="MyBoardControl.Designer.cs">
+    <Compile Include="Controls\MyBoardControl.Designer.cs">
       <DependentUpon>MyBoardControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Prompt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="AddTaskCard.cs">
+    <Compile Include="Controls\AddTaskCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="AddTaskCard.Designer.cs">
+    <Compile Include="Controls\AddTaskCard.Designer.cs">
       <DependentUpon>AddTaskCard.cs</DependentUpon>
     </Compile>
-    <Compile Include="TaskCard.cs">
+    <Compile Include="Controls\TaskCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="TaskCard.Designer.cs">
+    <Compile Include="Controls\TaskCard.Designer.cs">
       <DependentUpon>TaskCard.cs</DependentUpon>
     </Compile>
-    <Compile Include="TaskItem.cs" />
-    <EmbeddedResource Include="AddAnthrListControl.resx">
+    <Compile Include="Models\TaskItem.cs" />
+    <EmbeddedResource Include="Controls\AddAnthrListControl.resx">
       <DependentUpon>AddAnthrListControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BoardControl.resx">
+    <EmbeddedResource Include="Controls\BoardControl.resx">
       <DependentUpon>BoardControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CreateAccountForm.resx">
+    <EmbeddedResource Include="Forms\CreateAccountForm.resx">
       <DependentUpon>CreateAccountForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EditNewTaskControl.resx">
+    <EmbeddedResource Include="Controls\EditNewTaskControl.resx">
       <DependentUpon>EditNewTaskControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard.resx">
+    <EmbeddedResource Include="Forms\Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ListControl.resx">
+    <EmbeddedResource Include="Controls\ListControl.resx">
       <DependentUpon>ListControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
+    <EmbeddedResource Include="Forms\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MyBoardControl.resx">
+    <EmbeddedResource Include="Controls\MyBoardControl.resx">
       <DependentUpon>MyBoardControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -163,10 +163,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="AddTaskCard.resx">
+    <EmbeddedResource Include="Controls\AddTaskCard.resx">
       <DependentUpon>AddTaskCard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TaskCard.resx">
+    <EmbeddedResource Include="Controls\TaskCard.resx">
       <DependentUpon>TaskCard.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -308,8 +308,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="TaskManaDB.sql" />
+    <Content Include="Data\TaskManaDB.sql" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

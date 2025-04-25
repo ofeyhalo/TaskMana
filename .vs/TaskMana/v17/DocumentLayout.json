@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\ofeyhalo\\TaskMana\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AA1F783-BB58-46D5-8536-A8C3A19FF34D}|TaskMana\\TaskMana.csproj|c:\\users\\user\\source\\repos\\ofeyhalo\\taskmana\\taskmana\\listcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4AA1F783-BB58-46D5-8536-A8C3A19FF34D}|TaskMana\\TaskMana.csproj|c:\\users\\user\\source\\repos\\ofeyhalo\\taskmana\\taskmana\\controls\\addtaskcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA1F783-BB58-46D5-8536-A8C3A19FF34D}|TaskMana\\TaskMana.csproj|solutionrelative:taskmana\\controls\\addtaskcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA1F783-BB58-46D5-8536-A8C3A19FF34D}|TaskMana\\TaskMana.csproj|C:\\Users\\USER\\source\\repos\\ofeyhalo\\TaskMana\\taskmana\\listcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AA1F783-BB58-46D5-8536-A8C3A19FF34D}|TaskMana\\TaskMana.csproj|solutionrelative:taskmana\\listcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AA1F783-BB58-46D5-8536-A8C3A19FF34D}|TaskMana\\TaskMana.csproj|c:\\users\\user\\source\\repos\\ofeyhalo\\taskmana\\taskmana\\addtaskcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AA1F783-BB58-46D5-8536-A8C3A19FF34D}|TaskMana\\TaskMana.csproj|solutionrelative:taskmana\\addtaskcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AA1F783-BB58-46D5-8536-A8C3A19FF34D}|TaskMana\\TaskMana.csproj|c:\\users\\user\\source\\repos\\ofeyhalo\\taskmana\\taskmana\\addtaskcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4AA1F783-BB58-46D5-8536-A8C3A19FF34D}|TaskMana\\TaskMana.csproj|solutionrelative:taskmana\\addtaskcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AA1F783-BB58-46D5-8536-A8C3A19FF34D}|TaskMana\\TaskMana.csproj|c:\\users\\user\\source\\repos\\ofeyhalo\\taskmana\\taskmana\\listcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4AA1F783-BB58-46D5-8536-A8C3A19FF34D}|TaskMana\\TaskMana.csproj|C:\\Users\\USER\\source\\repos\\ofeyhalo\\TaskMana\\taskmana\\listcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4AA1F783-BB58-46D5-8536-A8C3A19FF34D}|TaskMana\\TaskMana.csproj|solutionrelative:taskmana\\listcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AA1F783-BB58-46D5-8536-A8C3A19FF34D}|TaskMana\\TaskMana.csproj|c:\\users\\user\\source\\repos\\ofeyhalo\\taskmana\\taskmana\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4AA1F783-BB58-46D5-8536-A8C3A19FF34D}|TaskMana\\TaskMana.csproj|C:\\Users\\USER\\source\\repos\\ofeyhalo\\TaskMana\\taskmana\\addtaskcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4AA1F783-BB58-46D5-8536-A8C3A19FF34D}|TaskMana\\TaskMana.csproj|solutionrelative:taskmana\\addtaskcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA1F783-BB58-46D5-8536-A8C3A19FF34D}|TaskMana\\TaskMana.csproj|C:\\Users\\USER\\source\\repos\\ofeyhalo\\TaskMana\\taskmana\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4AA1F783-BB58-46D5-8536-A8C3A19FF34D}|TaskMana\\TaskMana.csproj|solutionrelative:taskmana\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,53 +38,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AddTaskCard.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ofeyhalo\\TaskMana\\TaskMana\\AddTaskCard.cs",
-              "RelativeDocumentMoniker": "TaskMana\\AddTaskCard.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ofeyhalo\\TaskMana\\TaskMana\\AddTaskCard.cs",
-              "RelativeToolTip": "TaskMana\\AddTaskCard.cs",
-              "ViewState": "AgIAABMAAACAzszMzMwqwCYAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ofeyhalo\\taskmana\\TaskMana\\Controls\\AddTaskCard.cs",
+              "RelativeDocumentMoniker": "TaskMana\\Controls\\AddTaskCard.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ofeyhalo\\taskmana\\TaskMana\\Controls\\AddTaskCard.cs",
+              "RelativeToolTip": "TaskMana\\Controls\\AddTaskCard.cs",
+              "ViewState": "AgIAAAsAAADAZGZmZmYSwBoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T23:52:49.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ListControl.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ofeyhalo\\TaskMana\\TaskMana\\ListControl.cs",
               "RelativeDocumentMoniker": "TaskMana\\ListControl.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\ofeyhalo\\TaskMana\\TaskMana\\ListControl.cs",
               "RelativeToolTip": "TaskMana\\ListControl.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAIA4wCkAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAADgMjMzMzMgwBwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T23:45:28.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T23:45:28.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AddTaskCard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ofeyhalo\\TaskMana\\TaskMana\\AddTaskCard.cs",
               "RelativeDocumentMoniker": "TaskMana\\AddTaskCard.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\ofeyhalo\\TaskMana\\TaskMana\\AddTaskCard.cs [Design]",
               "RelativeToolTip": "TaskMana\\AddTaskCard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T23:44:32.445Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-22T23:44:32.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ListControl.cs [Design]",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ofeyhalo\\TaskMana\\TaskMana\\ListControl.cs",
               "RelativeDocumentMoniker": "TaskMana\\ListControl.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\ofeyhalo\\TaskMana\\TaskMana\\ListControl.cs [Design]",
               "RelativeToolTip": "TaskMana\\ListControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T23:42:12.841Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-22T23:42:12.841Z"
             },
             {
               "$type": "Document",
@@ -95,8 +92,7 @@
               "ToolTip": "C:\\Users\\USER\\source\\repos\\ofeyhalo\\TaskMana\\TaskMana\\Main.cs [Design]",
               "RelativeToolTip": "TaskMana\\Main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T23:40:28.088Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-22T23:40:28.088Z"
             }
           ]
         }
